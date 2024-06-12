@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script src="/JS/my.js">
+
+   
+
+class ArithmeticCalculation
+{
+
+}
+function addString(t1,t2)
+{
+   
+
+       let num1=Number(document.getElementById(t1).value);
+      
+      let num2=Number(document.getElementById(t2).value);
+     
+     var num3=num1+num2;
+      document.write(num3);
+
+   
+}
+
+//function declaration
+      //function - keyword
+   aaa=()=>
+
+      {
+        const a=1;
+             
+        
+
+             for(let i=1;i<=10;i++)
+             {
+                 c=a*i;
+                 document.write(a+"*"+i+"="+c+"<br>");
+             }
+                 
+                         firstname="Muthu";
+                         lastname="KarthiKeyan";
+                         initial="M";
+             
+                         document.write(initial+"."+firstname+" "+lastname);
+      }
+    
+     function addString()
+     {
+        
+
+            let num1=Number(document.getElementById("txt_user").value);
+           
+           let num2=Number(document.getElementById("txt_pass").value);
+          
+          var num3=num1+num2;
+           document.write(num3);
+
+        
+     }
+
+     
+     function subtract()
+     {
+        
+        let num1=Number(document.getElementById("txt_user").value);
+           
+            let num2=Number(document.getElementById("txt_pass").value);
+           
+           var num3=num1-num2;
+            document.getElementById("res").value=num3;
+            
+     }
+
+
+      
+    </script>
+
+</head>
+<body>
+    <div>
+        <table style="border: thick solid #0000FF; width: 49%;">
+            <tr>
+                <td>Username</td>
+                <td>
+                    <input id="txt_user" style="font-size: medium; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: #FFFF00" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input id="txt_pass" type="text" /></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input id="Button1" type="button" value="+" onclick="add('txt_user','txt_pass')"/>
+                    <input id="Button2" type="button" value="-" onclick="subtract()"/><input id="Button3" type="button" value="*" /><input id="Button4" type="button" value="/" /></td>
+            </tr>
+            <tr>
+                <td>result</td>
+                <td>
+                    
+                    <input type="text" id="res">
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+  <!--External CSS File-->
+    <link rel="StyleSheet" href="../CSS/my.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .r{
+            background-color: #65cf8e;
+        }
+    </style>
+</head>
+<body>
+
+   <div class="container">
+    <div class="row">
+        <h1 class="bg-secondary">Shopping</h1>
+        <nav class="nav nav-tabs navbar-expand-lg navbar-dark bg-dark">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">About Us</a>
+            <div class="nav-item dropdown">     
+                       <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                     <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Placment</a>
+                        <a href="#" class="dropdown-item">Development</a>
+                        <a href="#" class="dropdown-item">Training</a>
+                    </div>
+            </div>
+
+                <a href="#" class="nav-item nav-link">Portfolio</a>
+            <a href="#" class="nav-item nav-link">Contact Us</a>
+        </nav>
+    </div>
+ <div class="row">
+    <div class="col-sm-6 bg-success"> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempore vel rem fugit harum necessitatibus, omnis repudiandae libero nostrum pariatur minus aperiam fuga laboriosam magnam dolorem ab voluptate illum reiciendis.</p>
+    </div>
+    <div class="col-sm-6 r">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa mollitia! Tempore eos perspiciatis sapiente quia ab distinctio sit tenetur recusandae, numquam quas dolore neque minima consequatur laboriosam officia optio?</p>
+    </div>
+ </div>
+ <div class="row">
+    <div class="col-sm-4 bg-danger"> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempore vel rem fugit harum necessitatibus, omnis repudiandae libero nostrum pariatur minus aperiam fuga laboriosam magnam dolorem ab voluptate illum reiciendis.</p>
+    </div>
+    <div class="col-sm-4 bg-warning">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa mollitia! Tempore eos perspiciatis sapiente quia ab distinctio sit tenetur recusandae, numquam quas dolore neque minima consequatur laboriosam officia optio?</p>
+    </div>
+    <div class="col-sm-4 bg-dark">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa mollitia! Tempore eos perspiciatis sapiente quia ab distinctio sit tenetur recusandae, numquam quas dolore neque minima consequatur laboriosam officia optio?</p>
+    </div>
+ </div>
+<div class="row">
+<footer><h2>www.pearlsys.in</h2></footer>
+
+<img src="..." class="img-fluid" alt="...">
+</div>
+<div class="row">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+<div class="row">
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+   </div>
+      
+
+
+
+</body>
+</html>
